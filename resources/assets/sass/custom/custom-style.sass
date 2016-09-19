@@ -1,0 +1,26 @@
+body
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+
+.App__main
+  flex: 1 0 auto
+
+header
+  .Page__logo_link
+    padding: 0 10px
+
+footer
+  &.page-footer
+    margin-top: 0
+
+select
+  &:focus
+    outline: 0
+
+@import "pages/login"
+@import "components/charts"
+@import "components/form"
+@import "components/modal"
+@import "pages/variables"
+@import "pages/reports"
